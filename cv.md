@@ -39,12 +39,13 @@ alert(result);
 
 ## Education
 ### COURSES:
-+ RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
++ [RS Schools Course «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) (in progress)
 + [JavaScript Manual](https://learn.javascript.ru/) (in progress)
-+ [REACT](https://www.udemy.com/certificate/UC-e71f5110-b07b-446d-9232-7dae0474b4d0/) • BOGDAN STASHCHUK 
-+ [JAVA SCRIPT](https://youtu.be/CxgOKJh4zWE) • BOGDAN STASHCHUK
-+ [GITHUB](https://youtu.be/O00FTZDxD0o) • BOGDAN STASHCHUK
-+ HTML5 AND CSS3 • LOFTBLOG
++ [React](https://www.udemy.com/certificate/UC-e71f5110-b07b-446d-9232-7dae0474b4d0/) • Bogdan Stashchuk 
++ [Java Script](https://youtu.be/CxgOKJh4zWE) • Bogdan Stashchuk 
++ [GitHub](https://youtu.be/O00FTZDxD0o) • Bogdan Stashchuk
++ [Git screencast](https://www.youtube.com/playlist?list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb) • learn.javascript.ru
++ [HTML5 and CSS3](https://www.youtube.com/playlist?list=PLY4rE9dstrJyeZlPWoKJr1xKVVnG4w-Hc) • LoftBlog
 
 • economist • 2017 - 2022 • Bachelor's Degree • 
 Nizhny Novgorod State University N. I. Lobachevsky
@@ -64,6 +65,5 @@ Nizhny Novgorod Medical College
 ## Languages:
 + Russian - Native
 + English - A2 (I learn English and improve my level)
-
 
 
