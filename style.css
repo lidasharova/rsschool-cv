@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat-Bold.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat-Medium.ttf');
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 100vh;
+  line-height: 25px;
+  font-size: 14px;
+  background-color: #edeceb;
+  color: #403b33;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+header {
+  background-color: #a89d8d;
+  margin-top: 15px;
+}
+
+.container-profile {
+  width: 100%;
+  color: #fbfbfa;
+  display: flex;
+  align-items: center;
+}
+
+.profile-avatar img {
+  width: 200px;
+  vertical-align: bottom;
+  margin: 0px 40px 0px 10px;
+  box-shadow: 0px 10px 0px #a89d8d;
+}
+
+.profile-info {
+  line-height: 40px;
+  font-size: 19px;
+}
+
+.nav {
+  position: absolute;
+  font-size: 14px;
+  top: 10px;
+  right: 0;
+  margin-right: 10px;
+}
+
+a.nav-item {
+  color: #fbfbfa;
+  margin-left: 15px;
+}
+
+a.nav-item:hover {
+  border-bottom: 1px solid #ffffff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.main {
+  margin-top: 30px;
+}
+
+.section {
+  width: 50%;
+  position: relative;
+  padding-left: 30px;
+}
+
+.section::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  width: 100px;
+  height: 0px;
+  border: 1px solid #a89d8d;
+}
+
+.section-item {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+}
+
+.section-item::before {
+  content: '';
+  position: absolute;
+  top: 9px;
+  left: 2px;
+  width: 6px;
+  height: 6px;
+  background-color: #edeceb;
+  border: 1px solid #71695ddb;
+}
+
+h2 {
+  color: #71695ddb;
+  margin: 40px 0 20px 0;
+}
+
+h3 {
+  color: #918675;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #5b554c;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  border-bottom: 1px solid #595248;
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+li {
+  padding-right: 5px;
+  list-style: none;
+}
+
+.container-projects {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #a89d8d;
+  margin-top: 80px;
+  font-size: 15px;
+  line-height: 60px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.rss {
+  width: 100px;
+  height: 40px;
+  background-image: url('assets/rss.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px 20px;
+}
+
+.github-link {
+  margin-left: 20px;
+  color: white;
+}
+
+a.github-link:hover {
+  border-bottom: 1px solid #ffffff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a.rss:hover {
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 5px -3px 60px -10px rgba(111, 111, 92, 0.658);
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 50%;
+  }
+  .nav {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .footer-container {
+    margin: 0 15px 0 15px;
+  }
+  .profile-avatar img {
+    margin: 0px 40px 0px 15px;
+  }
+  a.nav-item {
+    color: #fbfbfa;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .profile-avatar img {
+    width: 120px;
+    vertical-align: bottom;
+    margin: 0px 15px 0px 10px;
+    box-shadow: 0px 6px 0px #a89d8d;
+  }
+
+  .profile-info {
+    width: 50%;
+    line-height: 25px;
+    font-size: 13px;
+  }
+  body {
+    line-height: 20px;
+    font-size: 13px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section {
+    width: 100%;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+
+  .main {
+    margin-top: 10px;
+  }
+  h2 {
+    margin: 30px 0 10px 0;
+  }
+
+  .section-item {
+    padding-left: 20px;
+  }
+
+  .section-item::before {
+    top: 7px;
+    width: 5px;
+    height: 5px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px 0 10px;
+  }
+
+  footer {
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 60px;
+  }
+}
